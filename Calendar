@@ -1,1 +1,92 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3> Enter the deatils</h3>
+    <input type = "text " placeholder="enter your name" name= "name"> <br> <br></h3>
+    <input type = "text " placeholder="enter your surname" name= "surname"> <br> <br></h3>
+    <input type = "tel " placeholder="enter your phone number" name= "telephone"> <br> <br></h3>
+    <input type = "email " placeholder="enter your email adress" name= "email adress"> <br> <br></h3>
+    <input type = "login " placeholder="enter your login" name= "login"> <br> <br></h3>
+    <input type = "password " placeholder="enter your password" name= "password"> <br> <br></h3>
+    <h4> Enter your gender </h4>
+    <label for="male">male</label> <input type ="radio"  name="gender"id="male"> 
+    <label for="female">female</label> <input type ="radio"  name="gender"id="female"> 
+<h4>Birth date</h4>
+<select>
+    <option>January</option>
+    <option>February</option>
+    <option>March</option>
+    <option>April</option>
+    <option>May</option>
+    <option>June</option>
+    <option>July</option>
+    <option>August</option>
+    <option>September</option>
+    <option>October</option>
+    <option>November</option>
+    <option>December</option>
+    </select>
+    <select>
+        <option>1</option>  
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+        <option>13</option>
+        <option>14</option>  
+        <option>15</option>
+        <option>16</option>
+        <option>17</option>
+        <option>18</option>
+        <option>19</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+        <option>29</option>
+        <option>30</option>
+        <option>31</option>
+    </select>
+    <select>
+        <option>2000</option>
+        <option>2001</option>
+        <option>2002</option>
+        <option>2003</option>
+        <option>2004</option>
+    </select>
+    <br><br>
+    
+    <input type="reset"value="delete">
+    <button onclick="goToNextPage()">register</button>
+    <script>
+        function goToNextPage() {
+            window.location.href = 'next-page.html';
+        }
+    </script>
+</body> 
+    
+
+</body>
+</body>
+</body>
+</body>
+</body>
+</html>
 
