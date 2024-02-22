@@ -21,7 +21,7 @@
         </p>
     
     <button
-        onclick = "muFunction()">Try it
+        onclick = "myFunction()">Try it
         
     </button>
     <div id = "myDIV">
@@ -31,7 +31,7 @@
         take up any space when the display property is set to "none".</p>
     <script>
         function myFunction(){
-            var x = document.getElementById("myDIV");
+            let x = document.getElementById("myDIV");
             if(x.style.display === "none"){
                 x.style.display = "block";
             }else{
