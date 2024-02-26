@@ -1,0 +1,14 @@
+.slider-container {
+    position:middle;
+    width:100%;
+}
+.slider-buttons{
+    position:absolute;
+    bottom:10px;
+    left:50%;
+    transform:translateX(-50%);
+}
+#prev-button, #next-button {
+    padding: 20px 36px;
+    margin:10 20px;
+}
