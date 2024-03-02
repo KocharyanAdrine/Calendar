@@ -1,0 +1,17 @@
+#employees-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #employees-table th, #employees-table td {
+    border: 1px solid #b89dc5;
+    padding: 8px;
+  }
+  
+  #employees-table th {
+    background-color: #92b8d1;
+  }
+  
+  #employees-table tbody tr:nth-child(even) {
+    background-color: #9de7bd;
+  }
